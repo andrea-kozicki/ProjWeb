@@ -1,0 +1,148 @@
+body{
+    margin: 0vh;
+    background-image: url("3623816.jpg");
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: 100%;
+   
+}
+
+header#cabecalho{
+    position: fixed;
+    margin: 0;
+    width: 100vw;
+    height: 8vh;
+    background-color:lightcoral;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    line-height: 0px;
+}
+nav#menu{
+    position: fixed;
+    text-align: center;
+    margin-top: 8vh;
+    width: 100vw;
+    height: 21vh;
+    background-color: coral;
+    font-family: 'Amatic SC', cursive;
+}
+
+li {
+    display: inline;
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+    font-size: 26px;
+}
+
+a:link, a:visited{
+    text-decoration: none;
+    
+}
+
+a:hover{
+    color:lightgoldenrodyellow;
+    
+}
+
+ul.botaomenu{
+    text-align: center;
+
+}
+#produto, #fazcha, #testem, #cont,#medsoc,#login, #bag{
+    font-family: 'Amatic SC', cursive;
+    font-size: 3vh;
+    width: 12vw;
+    background-color: coral;
+    text-align: center;
+    border: none;
+}
+
+img{
+    size: 25%;
+
+}
+#busca{
+    text-align: center;
+    display: inline-block;
+    width: 30vw;
+    height: 6vh;
+    background-color: white;
+    opacity: 75%;
+    color: black;
+    border-radius: 50px;
+    font-size: x-large;
+    font-family: 'Amatic SC', cursive;
+}
+
+#botbusca{
+    font-size: larger;
+    font-family: 'Amatic SC', cursive;
+    padding: 5px;
+}
+
+div{
+    padding-top: 10vh;
+    width: 100vw;
+    height: 90vh;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Amatic SC', cursive;
+}
+
+#main{
+    text-align: center;
+
+}
+h1{
+    font-size: 8vh;
+}
+
+h3{
+    font-size: 5vh;
+}
+
+section{
+    align-items: center;
+}
+
+#botao{
+    font-family: 'Amatic SC', cursive;
+    font-size: 5vh;
+    height: 15vh;
+    width: 30vw;
+    background-color: lightcoral;
+    border-radius: 10px;
+    border: none;
+}
+
+footer#md{
+    position: absolute;
+    text-align: center;
+    width: 100vw;
+    height: 15vh;
+    background-color: coral;
+    font-family: 'Amatic SC', cursive;
+    line-height: 5px;
+    
+}
+
+.card{
+    background-color: lightpink;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 10vh;
+}
+
+.form{
+    width: 300px;
+    height: 300px;
+    margin-top: 10vh;
+}
+
+
